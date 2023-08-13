@@ -1,0 +1,79 @@
+.violet{
+    background-color: #cfbaf0; 
+    border-color: #ad8ed1;
+  }
+  
+  .orange{
+    background-color: #ffdbb3;
+    border-color: #cf914a;
+  }
+  
+  .mint{
+    background-color: #a2e4b8;
+    border-color: #76a686;
+  }
+  
+  .blue{
+    background-color: #add8e6;
+    border-color: #80a0ab;
+  }
+  
+  .pink{
+    background-color: #ffc0cb;
+    border-color: #ab8087;
+  }
+  
+  .yellow{
+    background-color: #fdfd96;
+    border-color: #ABAB65;
+  }
+  
+  .palette-violet{
+    color: #ad8ed1;
+  }
+  
+  .palette-orange{
+    color: #cf914a;
+  
+  }
+  
+  .palette-mint{
+    color: #76a686;
+  
+  }
+  
+  .palette-blue{
+    color: #80a0ab;
+  }
+  
+  .palette-pink{
+    color: #ffc0cb;
+  }
+  
+  .palette-yellow{
+    color: #ABAB65;
+  }
+  
+  .violetH{
+    background-color: #ad8ed1;
+  }
+  
+  .orangeH{
+    background-color: #cf914a;
+  }
+  
+  .mintH{
+    background-color: #76a686;
+  }
+  
+  .blueH{
+    background-color: #80a0ab;
+  }
+  
+  .pinkH{
+    background-color: #ab8087;
+  }
+  
+  .yellowH{
+    background-color: #ABAB65;
+  }

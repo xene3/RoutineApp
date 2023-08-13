@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Body design base, margin could be changed */
+body{
+  margin: 0 2vw 0vw 2vw;
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Habits container (section) */
+.habits{
+  display: grid;
+  row-gap: 1vh;
+}
+
+/* Habit itself */
+.habit{
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  column-gap: 1vw;
+    /* background-color: #cfbaf0; */
+  border-radius: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.habit p{
+  text-align: center;
+  align-self: center;
+  padding: .5vh 0 .5vh 0;
+}
+
+/* Habit texts (after and do this) */
+.habit .habit-routine{
+  grid-column: 2;
+  text-align: center;
+  font-weight: 500;
+  /* background-color: #ad8ed1; */
+  border-radius: 5px;
+  width: 100%;
+}
+
+.habit .habit-text, .habit .habit-icon{
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.habit-icon{
+  cursor: pointer;
+}
+
+.habit .habit-dots{
+  text-align: center;
+}
+
+/* Form for the habits */
+.habitsForm{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 1vh;
+  row-gap: 2vh;
+  text-align: center;
+  margin: 2vh 0;
+}
+
+.habitsForm input{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-style: none;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 1vw;
+  align-self: center;
+  transition: all 0.25s;
+}
+
+.habitsForm p{
+  padding: 1vw;
+}
+
+.habitsForm .palette{
+  font-size: 5vw;
+  align-self: center;
+  cursor: pointer;
+  transition: transform, 0.25s;
+
+}
+
+.habitsForm #submitHabit{
+  grid-column: 3;
+  width: fit-content;
+  justify-self: end;
+  cursor: pointer;
+  transition: transform, 0.25s;
+}
+
+.palette:hover, #submitHabit:hover{
+  transform: scale(1.2);
+}
+
+.colours{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  margin-bottom: 1.5vh;
+}
+
+.colours .colour{
+  width: 6vw;
+  height: 6vw;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 0vw;
+  transition: transform, 0.25s;
+}
+
+.colour:focus, .colour:hover{
+  transform: scale(1.3);
+  border-width: .5vw;
+}
+
+.greyMask{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #53535360;
+}
+
+.habitMenu{
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  border-radius: 50px 50px 0 0;
+  display: grid;
+  align-items: start;
+  row-gap: 2vh;
+  justify-items: center;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.habitMenu p, .habitMenu .xmark{
+  font-weight: bold;
+  font-size: 2em;
+  cursor: pointer;
+  transition: transform 0.25s;
+}
+
+.habitMenu p:hover, .habitMenu .xmark:hover{
+  transform: scale(1.2);
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+
+}
+
+.menu-plus, .menu-x{
+  position: absolute;
+  bottom: 3%;
+  text-align: center;
+  width: 7vw;
+  height: 7vw;
+  background-color: red;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform, 0.25s;
+}
+
+.menu-plus:hover, .menu-x:hover{
+  transform: scale(1.2);
+}
+
+.menu-plus{
+  background-color: #8458b6;
+  color: #f2f2f2;
+}
+
+.menu-x{
+  background-color: #f2f2f2;
+  color: #8458b6;
+}
