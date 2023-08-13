@@ -193,9 +193,6 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-  body{
-    background-color: red;
-  }
 
   .habitsForm input{
     padding: 1vw 0;
