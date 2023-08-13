@@ -191,3 +191,14 @@ body{
   background-color: #f2f2f2;
   color: #8458b6;
 }
+
+@media screen and (max-width: 600px) {
+  body{
+    background-color: red;
+  }
+
+  .habitsForm input{
+    padding: 1vw 0;
+    width: 100%;
+  }
+}
